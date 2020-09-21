@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#app {
+  width: 100%;
+  background: #c1cbd2;
+  color: rgb(32, 30, 30);
+  height: 100vh;
+  padding: 30px 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.home-town {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1024px;
+  /* border: 10px solid #ecf1f3; */
+  border-radius: 31px;
+  background: #c1cbd2;
+  box-shadow:  20px 20px 40px #9aa2a8, 
+              -20px -20px 40px #e8f4fc;
+}
+.home-town .img {
+  padding: 30px 30px 30px 30px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.home-town .info {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000;
+  box-shadow:  20px 20px 40px #9aa2a8 inset, 
+              -20px -20px 40px #e8f4fc inset;
+}
+.home-town .name {
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(43, 41, 41);
+  padding-bottom: 20px;
+  box-shadow:  20px 20px 40px #9aa2a8, 
+              -20px -20px 40px #e8f4fc;
+}
+.about-me {
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about-me .button {
+  display: block;
+  margin: 15px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: #272829;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  line-height: 50px;
+  background: linear-gradient(145deg, #aeb7bd, #cfd9e1);
+  /* box-shadow:  15px 15px 30px #838a8f, 
+              -15px -15px 30px #ececec; */
+}
+.about-me .button:nth-child(odd) {
+  box-shadow:  15px 15px 30px #838a8f, 
+              -15px -15px 30px #ececec;
+}
+.about-me .button:nth-child(even) {
+  box-shadow:  15px 15px 30px  #ececec, 
+              -15px -15px 30px  #838a8f;
+}
+.foot {
+  margin: 20px auto;
+}
+.foot a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #6d7275;
+  text-decoration: none;
+  font-size: 12px;
+}
+@media screen and (max-width: 780px) {
+  .home-town .img {
+    width: 100%;
+    display: inline-block;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+    /* margin: 15px 10px; */
+  }
+}
